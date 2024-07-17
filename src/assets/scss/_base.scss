@@ -1,0 +1,32 @@
+@import './vars';
+@import './fonts';
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+body {
+  width: 100%;
+}
+
+.v-application {
+  .container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0;
+
+    @media(max-width: $xl) {
+      padding: 0 86px;
+    }
+
+    @media(max-width: $lg) {
+      padding: 0 38px;
+    }
+
+    @media(max-width: $md) {
+      padding: 0 20px;
+    }
+  }
+}
