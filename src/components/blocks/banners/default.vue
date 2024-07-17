@@ -94,7 +94,7 @@ export default {
   }
 
   .banner__name {
-    font-size: 120px;
+    font-size: 118px;
     font-weight: 300;
 
     @media (max-width:768px) {

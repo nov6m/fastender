@@ -25,6 +25,27 @@ export default {
       .v-input__slot {
         background: transparent!important;
         min-height: 40px;
+
+        ::-webkit-input-placeholder {
+          color:#D5D5D5;
+        }
+        :-moz-placeholder {
+          color:#D5D5D5;
+          opacity:  1;
+        }
+        ::-moz-placeholder { 
+          color:#D5D5D5;
+          opacity:  1;
+        }
+        :-ms-input-placeholder {
+          color:#D5D5D5;
+        }
+        ::-ms-input-placeholder {
+          color:#D5D5D5;
+        }
+        ::placeholder {
+          color:#D5D5D5;
+        }
       }
 
       .v-input__prepend-inner {

@@ -6,7 +6,7 @@
           <img src="@/static/images/news.png" alt="news image" class="news__image news__image-desktop"  />
         </div>
         <div>
-          <div v-if="currentNews.title" class="news__currentNews. contrast--text">
+          <div v-if="currentNews.title" class="news__title contrast--text">
             {{ currentNews.title }}
           </div>
           <v-divider class="contrast my-2"></v-divider>

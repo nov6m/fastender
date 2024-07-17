@@ -35,7 +35,6 @@ export default {
 .news-page {
   &__title {
     padding-top: 120px;
-    text-transform: uppercase;
     font-size: 64px;
     font-weight: 600;
 

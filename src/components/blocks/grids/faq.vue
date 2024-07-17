@@ -36,7 +36,7 @@
             <v-divider class="my-4 primary" />
           </div>
           <div class="d-flex justify-center">
-            <router-link to="/faq" class="faq_-card-link text-decoration-none contrast--text">
+            <router-link to="/faq" class="faq__card-link text-decoration-none contrast--text">
               Подробнее 🡪
             </router-link>
           </div>
@@ -54,7 +54,7 @@
             <v-divider class="my-4 primary" />
           </div>
           <div class="d-flex justify-center">
-            <router-link to="/faq" class="faq_-card-link text-decoration-none contrast--text">
+            <router-link to="/faq" class="faq__card-link text-decoration-none contrast--text">
               Подробнее 🡪
             </router-link>
           </div>
