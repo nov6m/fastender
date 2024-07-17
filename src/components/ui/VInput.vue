@@ -25,6 +25,10 @@ export default {
         color: #848484 !important;
       }
 
+      fieldset {
+        border-width: 1px;
+      }
+
       .v-input--is-focused {
         & fieldset {
           border: 1px solid #848484;
@@ -51,6 +55,27 @@ export default {
           & > div {
             color: #D5D5D5;
           }
+        }
+
+        ::-webkit-input-placeholder {
+          color:#D5D5D5;
+        }
+        :-moz-placeholder {
+          color:#D5D5D5;
+          opacity:  1;
+        }
+        ::-moz-placeholder { 
+          color:#D5D5D5;
+          opacity:  1;
+        }
+        :-ms-input-placeholder {
+          color:#D5D5D5;
+        }
+        ::-ms-input-placeholder {
+          color:#D5D5D5;
+        }
+        ::placeholder {
+          color:#D5D5D5;
         }
       }
 

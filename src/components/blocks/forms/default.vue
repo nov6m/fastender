@@ -9,7 +9,7 @@
           <div class="form__fields d-flex flex-column align-center">
             <v-input-custom v-model="form.fio" placeholder="ФИО" :rules="rules.fio" />
             <v-input-custom v-model="form.region" placeholder="Регион" :rules="rules.region" />
-            <v-input-custom v-model="form.phone" v-mask="'+7 (###) ### ## ##'" placeholder="+7(___) ___-____" :rules="rules.phone" return-masked-value mask="+7(###) ### ## ##" />
+            <v-input-custom v-model="form.phone" v-mask="'+7 (###) ###-####'" placeholder="+7(___) ___-____" :rules="rules.phone" return-masked-value />
             <v-input-custom v-model="form.email" placeholder="Email" :rules="rules.email" />
             <v-button class="form__button">
               Начать тендер
@@ -52,7 +52,7 @@
             </div>
           </div>
           <div class="form__list mt-6 mt-md-10 d-flex flex-column">
-            <div class="form__list-item d-flex">
+            <div class="form__list-item d-flex align-center">
               <div>
                 <img src="@/static/svg/po.svg" />
               </div>
@@ -60,7 +60,7 @@
                 Не нужно устанавливать никакое ПО, работа в браузере
               </div>
             </div>
-            <div class="form__list-item d-flex">
+            <div class="form__list-item d-flex align-center">
               <div>
                 <img src="@/static/svg/demonstration.svg" />
               </div>

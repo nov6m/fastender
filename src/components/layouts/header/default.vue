@@ -167,7 +167,7 @@ export default {
   &__short-info {
     column-gap: 40px;
 
-    @media (max-width:768px) {
+    @media (max-width: 1440px) {
       display: none !important;
     }
   }
@@ -179,7 +179,7 @@ export default {
     display: none;
     cursor: pointer;
 
-    @media (max-width: 768px) {
+    @media (max-width: 1440px) {
       display: flex;
       flex-direction: column;
       justify-content: space-between;

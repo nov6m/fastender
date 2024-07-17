@@ -208,6 +208,10 @@ export default {
 
     &-description {
       font-size: 18px;
+
+      @media (max-width:768px) {
+        font-size: 15px;
+      }
     }
   }
 

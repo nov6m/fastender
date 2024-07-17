@@ -205,6 +205,7 @@ export default {
     &-title {
       font-size: 14px;
       text-transform: uppercase;
+      font-size: 500;
 
       @media (max-width:768px) {
         display: none;
@@ -213,6 +214,12 @@ export default {
 
     &-image {
       height: 30px;
+      position: relative;
+      top: -15px;
+
+      @media (max-width:768px) {
+        top: 0px;
+      }
     }
 
     &-content {
@@ -232,6 +239,8 @@ export default {
   &__phone,
   &__email {
     column-gap: 12px;
+    font-size: 14px;
+    font-weight: 500;
   }
 
   &__email {
